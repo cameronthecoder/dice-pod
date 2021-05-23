@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<breeze-manifest version="1.0" xmlns="http://breeze.macromedia.com/ns/breeze-manifest" generator="ZB">
+	<document type="custom-pod" id="com.camerondahl.dice" version="1.0.001" minimumSDKversion="9.4.002" minimumConnectServerVersion="11.2.0"/>
+	<assets>
+		<asset type="document-view">
+			<entry href="dice_html5.htm"  href-html5="dice_html5.htm"/>
+			<file href="dice_html5.htm"/>
+			<file href="lib/"/>
+			<file href="lib/connect_customPodSDK.min.js"/>
+			<file href="js/"/>
+			<file href="js/main.js"/>
+			<file href="js/syncConnector.js"/>
+			<file href="css/"/>
+            <file href="css/styles.css"/>
+		</asset>
+	</assets>
+</breeze-manifest>
