@@ -1,7 +1,6 @@
 let roll_button = document.getElementById("roll-button");
 
 function rollDice(num) {
-  console.log('clicked');
   number = (typeof num !== 'undefined') ? num : getRandomNumber(1, 6);
   const dice = [...document.querySelectorAll(".die-list")];
   dice.forEach((die) => {
